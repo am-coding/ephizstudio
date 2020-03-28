@@ -62,7 +62,7 @@ h4 {
   /* HEADER */
 
   header {
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('resources/bg-2.jpg');
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg-2.jpg');
       height: 100vh;
       background-position: center;
       background-size: cover;
@@ -258,7 +258,7 @@ input[type=submit] {
 
 /* TESTIMONIALS */
 .section-testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(resources/bg-3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(bg-3.jpg);
   background-size: cover;
   color: #fff;
   padding: 5px;
