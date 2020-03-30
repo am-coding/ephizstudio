@@ -94,6 +94,53 @@ p {
 footer {
     font-size: 70%;
 }
+
+.testimonial-carousel h3 {
+   font-size: 200%;
+  }
+
+  .title-section {
+      margin-top: -31px;
+  }
+  
+  
+  .title-section .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: #fdd007;
+  }
+  
+  .box-1 {
+    max-width: 100%;
+    padding: 80px;
+    border: 2px solid #000000;
+  }
+
+  .box-1 h1 {
+   font-size: 100%;
+  }
+  
+  .box-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .box-child {
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  
+  
+  .box-child h3 {
+    color: #000000;
+    font-size: 80%;
+  }
+  
     
 }
 
