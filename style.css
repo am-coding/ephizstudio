@@ -12,12 +12,13 @@
    p{
      line-height: 145%;
      margin-bottom: 8px;
+     color: #fdd007;
    }
 
   /* HEADINGS */
 
   h1 {
-    color: rgb(236, 236, 236);
+    color: #fdd007;
     font-size: 450%;
     letter-spacing: 2px;
     word-spacing: 3px;
@@ -62,7 +63,6 @@ h4 {
   /* HEADER */
 
   header {
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bg-2.jpg');
       height: 100vh;
       background-position: center;
       background-size: cover;
@@ -78,6 +78,8 @@ h4 {
   }
 
  /* NAVBAR */
+
+ /*
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -176,6 +178,78 @@ h4 {
     }
 }
 
+*/
+
+nav .logo {
+  margin-top: 12px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  background-color: #fdd007;
+  height: 8vh;
+  z-index: 1;
+}
+
+nav span {
+  margin-right: 15px;
+  margin-top: 5px;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fdd007;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 /* BUTTONS */
 
 .large-btn, input[type=submit] {
@@ -198,7 +272,8 @@ input[type=submit] {
 /* ABOUT SECTION */
 
 .about-section {
-  margin-bottom: 40px;
+  background-color: #333;
+  padding: 40px;
 }
 
 .about-section h3 {
@@ -258,7 +333,7 @@ input[type=submit] {
 
 /* TESTIMONIALS */
 .section-testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(bg-3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(resources/bg-3.jpg);
   background-size: cover;
   color: #fff;
   padding: 5px;

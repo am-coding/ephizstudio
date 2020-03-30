@@ -7,63 +7,44 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="queries.css"/>
-    <link rel="stylesheet" href="grid.css"/>
+    <link rel="stylesheet" href="resources/grid.css"/>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
 </head>
 <body>
     <header>
-      <nav class="navbar">
-        <div class="brand-title">Ephiz studio</div>
-        <a class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      
+        <nav>
+            <div class="logo">yeschef</div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          
+        </nav>
+     
       <div class="head-box">
+          <!--
         <h1>Ephiz Studio</h1>
         <h2>We Craft Awesome Web And<br>
           Graphic Design Solutions </h2>
         <a href="#" class="large-btn">Show me more</a>
+        -->
       </div>
     </header>
 
     <section class="about-section">
-      <h3>Designing products for over 5 years.</h3><br>
-
-        <div class="row">
-            <div class="box">
-                <p>Highly creative and multitalented Graphic Designer with extensive experience in multimedia, marketing and print design. Exceptional collaborative and interpersonal skills; </p>  <p> dynamic team player with well-developed written and verbal communication abilities. Highly skilled in client and vendor relations and negotiations; talented at building and maintaining “win-win” partnerships. </p> <p> Passionate and inventive creator of innovative marketing strategies and campaigns; accustomed to performing in deadline-driven environments with an emphasis on working within budget requirements.</p>
-            </div>
-
-            <div class="box">
-                <h4>Skill Set</h4><br>
-                <ul>
-                    <li>Product Design</li>
-                    <li>Communication Design</li>
-                    <li>Design Systems</li>
-                    <li>Design Ops</li>  
-                    <li>Rapid Prototyping</li>
-                </ul> <br>
-
-                <h4 class="toolkit">Toolkit</h4><br>
-                <ul>
-                    <li>Figma</li>
-                    <li>Adobe Photoshop</li>
-                    <li>Sketch</li>
-                </ul>
-            </div>
+      <div class="row">
+          <div class="box">
+            <h1>H1 Title</h1>
+          </div>
+          <div class="box">
+           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
         </div>
+      </div>
     </section>
 
     <section class="project-section">
@@ -71,7 +52,7 @@
 
         <div class="row flexItem-1">
             <div class="box">
-                <img src="pro-1.jpg" alt="project-1" />
+                <img src="resources/pro-1.jpg" alt="project-1" />
             </div>
 
             <div class="box">
@@ -79,6 +60,7 @@
                 <p>A growing, personally-curated collection of fascinating goods from India’s most-loved indie brands like Chumbak, Anomaly, The Postbox and others — all filterable by category and budget. Built with Craft.</p><br>
                 <p class="pro-p">Tools ~ Adobe + Sketch</p>
                 <a class="large-btn" href="#" >Check it out</a>
+                
             </div>
         </div> 
 
@@ -92,14 +74,14 @@
             </div>
 
             <div class="box">
-                <img src="pro-1.jpg" alt="project-1" />
+                <img src="resources/pro-1.jpg" alt="project-1" />
             </div>
 
         </div>
 
         <div class="row flexItem-1">
             <div class="box">
-                <img src="pro-1.jpg" alt="project-1" />
+                <img src="resources/pro-1.jpg" alt="project-1" />
             </div>
 
             <div class="box">
@@ -120,19 +102,19 @@
           <div class="col span-1-of-3">
               <blockquote>
                   Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                  <cite><img src="customer-1.jpg" alt="Customer 1 photo">Alberto Duncan</cite>
+                  <cite><img src="resources/customer-1.jpg" alt="Customer 1 photo">Alberto Duncan</cite>
               </blockquote>
           </div>
           <div class="col span-1-of-3">
               <blockquote>
                  Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                  <cite><img src="customer-2.jpg" alt="Customer 2 photo">Joana Silva</cite>
+                  <cite><img src="resources/customer-2.jpg" alt="Customer 2 photo">Joana Silva</cite>
               </blockquote>
           </div>
           <div class="col span-1-of-3">
               <blockquote>
               I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-              <cite><img src="customer-3.jpg" alt="Customer 3 photo">Milton Chapman</cite>
+              <cite><img src="resources/customer-3.jpg" alt="Customer 3 photo">Milton Chapman</cite>
               </blockquote>
           </div>
       </div>
