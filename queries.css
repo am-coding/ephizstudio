@@ -140,13 +140,48 @@ footer {
     color: #000000;
     font-size: 80%;
   }
+
+  .grid-item {
+    padding: 30px;
+  }
   
+  .head-box {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transform: translate(0%, 0%);
+  }
+
+  .work-head h1{
+ font-size: 180%;
+  }
+
+  .work-head {
+      padding: 10px;
+  }
     
+  label {
+    font-size: 80%;
+  }
+
+  select {
+    width: 80%;
+  }
+  
+  .contact-head h1 {
+    font-size: 180%;
+    font-weight: 600;
+  }
+  
+  
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    
+    .grid-item {
+        padding: 25px;
+      }
+      
 }
 
 .btn-main, input[type=submit] {
