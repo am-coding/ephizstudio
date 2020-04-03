@@ -540,12 +540,23 @@ footer p {
   grid-template-columns: auto auto;
 }
 
+ .grid-container a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .grid-container a:hover {
+    background-color: #131313;
+  }
+
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 80px;
   font-size: 30px;
   text-align: center;
+  max-width: 100%;
 }
 
 /* ----------------------------------------------------------------------*/
@@ -641,3 +652,47 @@ option {
   color: #000;
   font-weight: 600;
 }
+
+/*
+--------------------------------------------------------------------------
+PORTFOLIO PAGE
+-------------------------------------------------------------------------- 
+*/
+
+.portfolio-head h1 {
+  color: #000;
+}
+
+.portfolio-header {
+  background-color: rgb(245, 245, 245);
+}
+
+.grid-box {
+  background-color: #333333;
+  color: #fdd007;
+}
+
+.more-section {
+  padding: 30px;
+  background-color: #fdd007;
+  text-align: center;
+}
+
+.more-section h2 {
+  color: #000;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+
+.more-section a {
+  color: #000;
+  border: 2px solid black;
+  
+}
+
+.more-section a:hover {
+  color: #fdd007;
+  background-color: #000;
+}
+

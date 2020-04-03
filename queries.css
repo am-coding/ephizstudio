@@ -172,7 +172,28 @@ footer {
     font-size: 180%;
     font-weight: 600;
   }
+
+  .portfolio-head h1 {
+    font-size: 150%;
+  }
   
+  
+  .portfolio-head {
+    left: 20%;
+    top: 40%;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .grid-container a{
+    text-decoration: none;
+    color: black;
+  }
+
   
 }
 
